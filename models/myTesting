@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+class mymy:
+    def __init__(self):
+        pass
+
+    def __str__(self):
+        print (type(self).__name__)
+
+my = mymy()
+
+my.str()
