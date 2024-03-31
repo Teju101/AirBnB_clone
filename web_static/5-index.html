@@ -1,33 +1,42 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport", content="width=device-width, initial-value=1">
+		<link rel="stylesheet" href="styles/4-common.css">
+		<link rel="stylesheet" href="styles/3-header.css">
+		<link rel="stylesheet" href="styles/3-footer.css">
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+		<link rel="stylesheet" href="styles/5-filters.css">
 
-<head>
-      <link rel="stylesheet" href="styles/4-common.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-footer.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-header.css" type="text/css">
-      <link rel="stylesheet" href="styles/5-filters.css" type="text/css">
-      <title>AirBnB clone</title>
-      <link rel="tab icon" href="images/icon.png" type="image/png">
-</head>
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.png" alt="logo">
+		</header>
 
-<body>
-      <header>
-            <div class="logo"></div>
-      </header>
-      <div class="container">
-            <section class="filters">
-                  <div class="locations">
-                        <h3>States</h3>
-                        <h4>Nairobi, Addisababa</h4>
-                  </div>
-                  <div class="amenities">
-                        <h3>Amenities</h3>
-                        <h4>Shower, Swimming pool</h4>
-                  </div>
-                  <button>Search</button>
-            </section>
-      </div>
-      <footer>Best School</footer>
-</body>
+		<div class="container">
+			<section class="filters">
 
+				<div class="location item">
+					<h3>States</h3>
+					<h4>Osun, Oyo, Ogun, ...</h4>
+				</div>
+
+				<div class="amenities item">
+					<h3>Amenities</h3>
+					<h4>Internet, kitchen, ...</h4>
+				</div>
+
+				<button class="item">
+                                        <p>Search</p>
+                                </button>
+
+			</section>
+		</div>
+
+		<footer>
+			<p>Best School</p>
+		</footer>
+	</body>
 </html>
